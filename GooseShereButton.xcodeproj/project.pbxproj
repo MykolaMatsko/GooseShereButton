@@ -11,6 +11,7 @@
 		ED668D892A1B4C08005BDC54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED668D882A1B4C08005BDC54 /* ContentView.swift */; };
 		ED668D8B2A1B4C10005BDC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED668D8A2A1B4C10005BDC54 /* Assets.xcassets */; };
 		ED668D8E2A1B4C10005BDC54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED668D8D2A1B4C10005BDC54 /* Preview Assets.xcassets */; };
+		ED7DD1E92A1B546000FABAEC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7DD1E82A1B546000FABAEC /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ED668D882A1B4C08005BDC54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED668D8A2A1B4C10005BDC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED668D8D2A1B4C10005BDC54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED7DD1E82A1B546000FABAEC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		ED668D852A1B4C08005BDC54 /* GooseShereButton */ = {
 			isa = PBXGroup;
 			children = (
+				ED7DD1E52A1B540A00FABAEC /* View */,
 				ED668D862A1B4C08005BDC54 /* GooseShereButtonApp.swift */,
 				ED668D882A1B4C08005BDC54 /* ContentView.swift */,
 				ED668D8A2A1B4C10005BDC54 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				ED668D8D2A1B4C10005BDC54 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED7DD1E52A1B540A00FABAEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED7DD1E82A1B546000FABAEC /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED668D892A1B4C08005BDC54 /* ContentView.swift in Sources */,
+				ED7DD1E92A1B546000FABAEC /* Home.swift in Sources */,
 				ED668D872A1B4C08005BDC54 /* GooseShereButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
